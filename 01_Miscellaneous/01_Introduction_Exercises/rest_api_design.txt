@@ -1,0 +1,24 @@
+
+HTTP Verb: GET 
+URI: /beers
+Description: Retrieve all beers
+
+HTTP Verb: GET 
+URI: /beers/{id}
+Description: Retrieve a specific beer by id
+
+HTTP Verb: POST
+URI: /beers
+Description: Add a beer
+
+HTTP Verb: PUT
+URI: /beers/{id}
+Description: Replace an entire beer object by id
+
+HTTP Verb: PATCH
+URI: /beers/{id}
+Description: Update specific fields for a beer object by id
+
+HTTP Verb: DELETE
+URI: /beers/{id}
+Description: Delete a specific beer by id

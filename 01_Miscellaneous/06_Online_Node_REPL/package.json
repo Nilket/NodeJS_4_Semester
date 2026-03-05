@@ -1,0 +1,22 @@
+{
+  "name": "online_node_repl",
+  "version": "0.0.1",
+  "description": "A website that allows you to run node in a REPL",
+  "keywords": [
+    "node",
+    "repl",
+    "website"
+  ],
+  "license": "MIT",
+  "author": "Nilket",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "cross-env PORT=8080 NODE_ENV=DEV node app.js",
+    "start-prod": "cross.env PORT=80 node app.js"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "express": "^5.2.1"
+  }
+}
